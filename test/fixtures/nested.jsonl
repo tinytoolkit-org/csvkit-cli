@@ -1,0 +1,3 @@
+{"id":1,"user":{"name":"Ada","email":"ada@example.com"},"active":true}
+{"id":2,"user":{"name":"Linus","email":"linus@example.com"},"active":false}
+{"id":3,"user":{"name":"Grace","email":"grace@example.com"},"active":true}

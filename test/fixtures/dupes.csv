@@ -1,0 +1,6 @@
+id,email,name
+1,ada@example.com,Ada
+2,linus@example.com,Linus
+1,ada@example.com,Ada Duplicate
+3,grace@example.com,Grace
+2,LINUS@example.com,Linus Upper

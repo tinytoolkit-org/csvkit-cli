@@ -1,0 +1,52 @@
+{
+  "name": "csvkit",
+  "version": "0.1.0",
+  "description": "Validate, fix, convert, dedupe, sort, filter, diff and stat CSV files on the command line. Everything csvkit.org does, streaming, no upload.",
+  "type": "module",
+  "main": "src/cli.js",
+  "bin": {
+    "csvkit": "bin/csvkit"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "smoke": "node bin/csvkit --version && echo ok"
+  },
+  "keywords": [
+    "csv",
+    "cli",
+    "rfc4180",
+    "tsv",
+    "json",
+    "convert",
+    "validate",
+    "dedupe",
+    "diff",
+    "merge",
+    "split",
+    "stream",
+    "stats",
+    "filter",
+    "sort",
+    "transpose",
+    "sql"
+  ],
+  "author": "Sam Blake <suleimanst@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://csvkit.org/cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinytoolkit-org/csvkit-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinytoolkit-org/csvkit-cli/issues"
+  }
+}

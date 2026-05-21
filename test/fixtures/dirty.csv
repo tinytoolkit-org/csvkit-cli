@@ -1,0 +1,5 @@
+﻿id,name,note
+1,Ada,“hello”
+2,Linus
+3,Grace,extra,column,here
+4,"Bob ""the builder""","quoted, with comma"
